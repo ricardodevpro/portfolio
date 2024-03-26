@@ -9,7 +9,7 @@
 
 :root {
     --fundo: #1A1A1A;
-    --azul: #009dff;
+    --azul: #007fff  ;
     --fonte: "DM Sans";
 }
 
@@ -30,6 +30,14 @@ body {
     width: 300px;
     gap: 80px;
     color: white;
+}
+
+.header-container i {
+    display: none;
+}
+
+.header-container nav {
+    display: none;
 }
 
 .header-container h1 {
@@ -81,12 +89,17 @@ body {
     text-decoration: none;
 }
 
+.main-download a:hover {
+    color: white;
+}
+
 .main-download-cv {
-    background-color: #009dff;
+    background-color: #007fff ;
     color: black;
     padding: 10px 20px;
     width: 200px;
 }
+
 
 .main-download-contato {
     color: white;
@@ -94,6 +107,10 @@ body {
     background-color: rgb(34, 34, 34);
     padding: 10px 20px;
     width: 200px;
+}
+
+.main-imagem {
+    display: none;
 }
 
 /*  SOBRE   */
@@ -121,6 +138,9 @@ body {
 
 }
 
+/*  LOGOS    */
+
+
 .main-container-logos{
     display: flex;
     flex-direction: column;
@@ -145,4 +165,101 @@ body {
 
 .main-container-logos p {
     font-size: 14px;
+}
+
+/*  PROJETOS    */
+
+.main-container-projetos {
+    display: block;
+    margin: auto;
+}
+
+.main-container-projetos h2 {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-container-projetos .card{
+    /* border: 0.5px solid white; */
+    border-radius: 0;
+    background: rgb(40, 40, 40);
+    margin-bottom: 50px;
+}
+
+.main-container-projetos h5 {
+    color: white;
+}
+.main-container-projetos p {
+    color: gray;
+}
+
+.main-container-projetos .btn btn-primary{
+    background-color: #007fff ;
+}
+
+/*  SERVIÇOS    */
+
+.main-container-servicos div{
+    display: block;
+    padding: 10px 20px;
+    margin: auto;
+    width: 15rem;
+    height: 12rem;
+    background: rgb(40, 40, 40);
+    margin-bottom: 40px;
+    border-bottom: 5px solid #007fff ;
+}
+
+.main-container-servicos h2 {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-container-servicos p {
+    width: 70px;
+    color: white;
+    margin-top: 20px;
+    line-height: 2.2em;
+}
+
+/*  SKILLS  */
+
+.main-container-skills h2 {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.main-container-skills div {
+    display: block;
+    padding: 10px 20px;
+    margin: auto;
+    width: 10rem;
+    height: 9rem;
+    background: rgb(40, 40, 40);
+    margin-bottom: 40px;
+}
+
+/*  FOOTER  */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 5px 10px;
+    margin: auto;
+    background-color: #007fff;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    color: white;
 }

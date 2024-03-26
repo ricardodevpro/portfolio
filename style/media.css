@@ -1,0 +1,381 @@
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) { 
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 500px;
+        gap: 80px;
+        color: white;
+    }
+
+    .header-container i {
+        display: block;
+    }
+
+    .main-container {
+        display: block;
+        padding-left: 10px;
+        margin: auto;
+        width: 500px;
+    }
+
+    .main-download{
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .main-download a{
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .main-download a{
+        text-decoration: none;
+    }
+    
+    .main-download-cv {
+        background-color: #007fff ;
+        color: black;
+        padding: 10px 20px;
+        width: 200px;
+    }
+    
+    .main-download-contato {
+        color: white;
+        border: 0.5px solid white;
+        background-color: rgb(34, 34, 34);
+        padding: 10px 20px;
+        width: 200px;
+    }
+
+    .main-imagem {
+        display: block;
+    }
+
+    .main-imagem div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .main-imagem div img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+
+    /*  SOBRE   */
+
+    .main-about {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 500px;
+        text-align: center;
+    }
+
+    .main-about {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 500px;
+    }
+    
+    .main-about h2{
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .main-about p {
+        color: gray;
+        width: 500px;
+        margin: auto;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 50px;
+    
+    }
+
+    
+    /*  LOGOS    */
+
+
+    .main-container-logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 500px;
+    }
+
+    /*  PROJETOS    */
+
+    .main-container-projetos {
+        display: block;
+        margin: auto;
+        width: 500px;
+    }
+
+    .main-container-projetos h2 {
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .main-container-projetos .card{
+        /* border: 0.5px solid white; */
+        border-radius: 0;
+        background: #212121;
+        margin: auto;
+    }
+
+    .main-container-servicos div{
+        display: block;
+        padding: 10px 20px;
+        margin: auto;
+        width: 17rem;
+        height: 12rem;
+        background: rgb(40, 40, 40);
+        margin-bottom: 40px;
+        border-bottom: 5px solid #007fff ;
+    }
+
+    .main-container-servicos p {
+        width: 200px;
+        font-size: 2em;
+        font-weight: 500;
+        color: #82807C;
+        margin-top: 20px;
+        line-height: 1.5em;
+    }
+
+        /*  SKILLS  */
+
+    .main-container-skills h2 {
+        color: white;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .main-container-skills div {
+        display: block;
+        padding: 10px 20px;
+        margin: auto;
+        width: 10rem;
+        height: 9rem;
+        background: rgb(40, 40, 40);
+        margin-bottom: 40px;
+    }
+
+    footer {
+        display: flex;
+        width: 500px;
+        padding: 5px 10px;
+        margin: auto;
+        background-color: #007fff;
+    }
+    
+    footer p {
+        color: white;
+    }
+
+    }
+
+/* // Dispositivos large (desktops com 992px ou mais) */
+@media (min-width: 992px) {  
+    /* HEADER */
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        margin-bottom: 60px;
+        width: 700px;
+        gap: 80px;
+        color: white;
+    }
+    .header-container nav{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    .header-container nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    
+    /* MAIN */
+
+    .main-container {
+        display: block;
+        padding-left: 10px;
+        margin: auto;
+        width: 700px;
+    }
+
+    /*  BOTÃO DE DOWNLOAD   */
+
+    .main-download{
+        display: flex;
+        justify-content: left;
+        margin-top: 20px;
+        margin: 0;
+    }
+
+    .main-download a{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .main-download-cv {
+        background-color: #007fff ;
+        color: black;
+        padding: 10px;
+        width: 200px;
+    }
+    
+    
+    .main-download-contato {
+        color: white;
+        border: 0.5px solid white;
+        background-color: rgb(34, 34, 34);
+        padding: 10px 20px;
+        width: 200px;
+    }
+
+    .main-container div img {
+        display: flex;
+    }
+
+    .main-imagem div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        position: relative;
+        left: 80%; top: 100%;
+        transform: translate(-50%, -100%);
+    }
+
+    .main-imagem div img {
+        height: 250px ;
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    /*  SOBRE   */
+
+    .main-about {
+        margin-top: 0px;
+        margin-bottom: 50px;
+        width: 700px;
+        text-align: center;
+    }
+    
+    .main-about h2{
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .main-about p {
+        color: gray;
+        width: 700px;
+        margin: auto;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 50px;
+    
+    }
+
+    .main-container-logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .main-container-logos i {
+        color: var(--azul);
+        background: rgb(40, 40, 40);
+        padding: 20px 20px;
+        border-radius: 50%;
+        margin-bottom: 5px;
+        font-size: 23px;
+    }
+
+
+    .main-container-logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 500px;
+    }
+
+    /*  PROJETOS    */
+
+    .main-container-projetos {
+        display: block;
+        margin: auto;
+        width: 500px;
+    }
+
+    .main-container-projetos h2 {
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .main-container-projetos .card{
+        /* border: 0.5px solid white; */
+        border-radius: 0;
+        background: #212121;
+        margin: auto;
+    }
+
+    .main-container-servicos div{
+        display: block;
+        padding: 10px 20px;
+        margin: auto;
+        width: 17rem;
+        height: 12rem;
+        background: rgb(40, 40, 40);
+        margin-bottom: 40px;
+        border-bottom: 5px solid #007fff ;
+    }
+
+    .main-container-servicos p {
+        width: 200px;
+        font-size: 2em;
+        font-weight: 500;
+        color: #82807C;
+        margin-top: 20px;
+        line-height: 1.5em;
+    }
+}
+
+
+/* // Dispositivos extra large (desktops grandes com 1200px ou mais) */
+@media (min-width: 1200px) {  
+
+}
