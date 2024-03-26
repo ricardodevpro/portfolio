@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte);
+}
+
+
+:root {
+    --fundo: #1A1A1A;
+    --azul: #009dff;
+    --fonte: "DM Sans";
+}
+
+
+
+body {
+    background-color: var(--fundo);
+}
+
+/* HEADER */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 300px;
+    gap: 80px;
+    color: white;
+}
+
+.header-container h1 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+/* MAIN */
+
+.main-container {
+    display: block;
+    padding-left: 10px;
+    margin: auto;
+    width: 300px;
+}
+
+.main-container h1{
+    color: white;
+    text-align: left;
+    width: 250px;
+    font-weight: 600;
+}   
+
+.main-container h1 span{
+    color: var(--azul);
+}   
+
+.main-container h3{
+    color: gray;
+    font-weight: 300;
+}
+
+/*  BOTÃO DE DOWNLOAD   */
+
+.main-download{
+    margin-top: 20px;
+}
+
+.main-download a{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-download a{
+    text-decoration: none;
+}
+
+.main-download-cv {
+    background-color: #009dff;
+    color: black;
+    padding: 10px 20px;
+    width: 200px;
+}
+
+.main-download-contato {
+    color: white;
+    border: 0.5px solid white;
+    background-color: rgb(34, 34, 34);
+    padding: 10px 20px;
+    width: 200px;
+}
+
+/*  SOBRE   */
+
+.main-about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+}
+
+.main-about h2{
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-about p {
+    color: gray;
+    width: 200px;
+    margin: auto;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.main-container-logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main-container-logos i {
+    color: var(--azul);
+    background: rgb(40, 40, 40);
+    padding: 20px 20px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+
+.main-container-logos h4 {
+    color: white;
+    margin-bottom: 3px;
+}
+
+.main-container-logos p {
+    font-size: 14px;
+}
