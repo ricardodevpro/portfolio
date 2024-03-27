@@ -265,6 +265,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 300px;
         margin-top: 20px;
         margin-bottom: 0px;
         position: relative;
@@ -303,13 +304,24 @@
         margin-bottom: 50px;
     
     }
+    
+    .container-logos {
+        display: flex;
+        margin-bottom: 110px;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20;
+    }
+
+    .container-logos p{
+        display: inline;
+        text-align: center;
+    }
 
     .main-container-logos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
+        display: block;
     }
     
     .main-container-logos i {
@@ -321,25 +333,32 @@
         font-size: 23px;
     }
 
-
-    .main-container-logos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        width: 500px;
-    }
-
     /*  PROJETOS    */
+
+    .container-projetos {
+        display: flex;
+        margin: auto;
+        margin-bottom: 110px;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
 
     .main-container-projetos {
         display: block;
         margin: auto;
-        width: 500px;
+        width: 700px;
+        gap: 20px
+    }
+
+    .card-img-top {
+        height: 8rem;
     }
 
     .main-container-projetos h2 {
+        display: block;
         color: white;
         font-weight: 600;
         text-align: center;
@@ -351,6 +370,19 @@
         border-radius: 0;
         background: #212121;
         margin: auto;
+    }
+
+    /*  SERVIÇOS    */
+
+    .container-servicos {
+        display: flex;
+        margin: auto;
+        margin-bottom: 110px;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
     }
 
     .main-container-servicos div{
@@ -371,6 +403,25 @@
         color: #82807C;
         margin-top: 20px;
         line-height: 1.5em;
+    }
+
+    /*  SKILLS  */
+
+    .container-skills {
+        display: flex;
+        margin: auto;
+        margin-bottom: 110px;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    /*  RODAPÉ  */
+
+    footer {
+        width: 700px;
     }
 }
 
